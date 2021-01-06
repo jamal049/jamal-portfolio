@@ -2,8 +2,21 @@
     margin: 0;
     padding: 0;
 }
-.header-top{
-margin-top: 50px;
+.menu-bar {
+    margin-top: 50px;
+    margin-bottom: -60px;
+}
+.menu-bar ul{ 
+margin-right: 90px;
+float: right;
+}
+.menu-bar ul li{
+display: inline-block;
+padding: 0px 18px;
+}
+.menu-bar ul li a{
+text-decoration: none;
+color: black;
 }
 .half-width{
     float: left;
@@ -36,10 +49,72 @@ color: blue;
 section{
     padding-bottom: 150px;
 }
-.about-area{
+.about-sec{
     display: inline-block;
     margin-top: 60px;
 }
-.about-area .half-width h2{
+.about-sec .half-width h2{
     font-size: 40px;
+}
+.work-sec {
+    background-color: #dddbdb;
+    height: 600px;
+    padding: 80px 0;
+}
+.work-sec h2 {
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 40px;
+}
+.three-col {
+    width: 25%;
+    margin-left: 4%;
+    float: left;
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.three-col img{
+    width: 100%;
+}
+.three-col h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 20px 0;
+}
+.three-col p{
+
+}
+.text-color{
+    color: blue;
+}
+.contact-sec {
+    margin: 100px 270px;
+    background-image: url(images/bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 96px 60px;
+    width: 850px;
+}
+.contact-sec h2 {
+    font-size: 45px;
+    display: inline-block;
+    color: white;
+}
+.contact-sec a {
+    float: right;
+}
+footer{
+    text-align: center;
+    margin: 50px 0;
+}
+footer p{
+
+}
+footer h2 {
+    margin: 12px 0;
+}
+footer img {
+    width: 35px;
+    margin: 10px;
 }
